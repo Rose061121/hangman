@@ -5,7 +5,7 @@ export default class Play extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Play!</Text>
+        <Text>{this.props.gameWord}</Text>
       </View>
     );
   }

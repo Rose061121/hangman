@@ -12,7 +12,7 @@ export default class Game  {
 }
 
 getRandomWord = () => {
-  return words[Math.floor(Math.random() * words.length)]
+  return this.words[Math.floor(Math.random() * this.words.length)]
   
 }
 

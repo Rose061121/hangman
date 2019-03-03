@@ -1,11 +1,15 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Button } from 'react-native'
+import { states } from '../App'
 
 export default class Start extends React.Component {
+
+    
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Start!</Text>
+        <Button title="START" onPress={this.props.startGame}></Button>
       </View>
     );
   }
